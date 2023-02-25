@@ -7,7 +7,7 @@ int main()
     int p = 0;
     std::string s = std::to_string(x); 
     const char* myStr = s.c_str();
-    char c = myStr[0];//string to char
+    char c = myStr[0];
     int y = s.length(); 
     int j = (y - 1);
     for (int i = 0; i < y; i++)
